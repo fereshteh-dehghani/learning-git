@@ -88,12 +88,24 @@ padding:15px;
 }
  /* style footer */
  footer{
+     display:flex;
+     justify-content:center;
+     align-items:center;
+    
      width:100%;
-     background-color:darkslategray;
+     background-color:rgb(46, 72, 187);
      height:80px;
      align-items:center;
  }
   /* style ul in footer */
-  footer u li{
+  footer ul li{
+      display:inline-block;
+      text-align:center;
+      color:rgb(209, 199, 199);
+      font-size: 18px;
+      margin:20px;
 
-  }
+}
+/* End styles index.html */
+
+/*  */
