@@ -86,6 +86,17 @@ padding:15px;
     box-shadow :0 5px rgb(238, 206, 206);
 
 }
+section div img{
+    width:80px;
+    height:80px;
+    justify-content:center;
+    align-items:center;
+    margin: 40px 70px;
+    /* margin-top:10px;
+    margin-right:50px;
+    margin-left:50px; */
+    position:relative;
+}
  /* style footer */
  footer{
      display:flex;
@@ -108,4 +119,4 @@ padding:15px;
 }
 /* End styles index.html */
 
-/*  */
+/* start style for rules.html */
