@@ -4,7 +4,14 @@
     margin:0;
     padding:0;
 }
-
+/* When the browser is at  */
+@media screen and (max-device-width:550px) {
+    .flex-container, .flex-container div{
+        flex-wrap:wrap;
+        align-content:space-around;
+    }
+    
+}
 /* make flexable header */
 header{
     width:100%;
@@ -73,12 +80,17 @@ padding:15px;
     display:flex;
     justify-content:space-around;
     align-items:center;
+    align-content:space-around;
     flex-wrap:wrap;
     margin:50px 50px;
 }
 
 /* style div in flex-container */
 .flex-container div{
+    display:flex;
+    flex-flow:column wrap;
+    justify-content:space-around;
+    align-items:center;
     width:20%;
     height:300px;
     background-color:#BC8F8F;
@@ -87,15 +99,23 @@ padding:15px;
 
 }
 section div img{
-    width:80px;
-    height:80px;
-    justify-content:center;
-    align-items:center;
-    margin: 40px 70px;
-    /* margin-top:10px;
-    margin-right:50px;
-    margin-left:50px; */
-    position:relative;
+    width:90px;
+    height:90px;
+}
+section div p{
+    font-size:20px;
+    font-style:oblique;
+}
+section div a {
+    color:rgb(37, 37, 48);
+    text-decoration:none;
+    background-color: rgb(247, 46, 203);
+    font-size:22px;
+    width:5rem;
+    height:2rem;
+    text-align:center;
+    border:1px solid  rgb(247, 46, 203);
+    border-radius:3px;
 }
  /* style footer */
  footer{
@@ -120,3 +140,38 @@ section div img{
 /* End styles index.html */
 
 /* start style for rules.html */
+.rule{
+    width:14%!important;
+    height:250px !important;
+    margin: 15px !important;;
+}
+aside {
+    width:80%;
+    float:left;
+    box-shadow:inset 2px 0 2px -2px #171818;
+    font-style:italic;
+    text-align:left;
+}
+aside p{
+    padding-left:2rem;
+}
+section span{
+    font-size:20px;
+    float:left;
+    /* margin:10px; */
+    /* padding-top:10px;
+    padding-right:10px; */
+}
+
+#rule{
+display:flex;
+justify-content: space-around;
+align-items:center;
+width:90%;
+height:130px;
+margin:10px 50px;
+border:1px solid grey;
+border-radius:2%;
+padding:15px;
+}
+/* End Style For Rule.html */
