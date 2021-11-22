@@ -5,10 +5,11 @@
     padding:0;
 }
 /* When the browser is at  */
-@media screen and (max-device-width:550px) {
-    .flex-container, .flex-container div{
-        flex-wrap:wrap;
+@media only screen and (max-device-width:550px) {
+    section .flex-container{
+        flex-wrap:column wrap;
         align-content:space-around;
+        
     }
     
 }
@@ -175,3 +176,34 @@ border-radius:2%;
 padding:15px;
 }
 /* End Style For Rule.html */
+
+/* Start Style relative section.html */
+#section {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin:2rem;
+
+}
+table{
+    width:70%;
+  
+    border:3px solid #061818;
+}
+/* Style For tr Table */
+tr{
+    text-align:center;
+}
+/* Style For th table */
+ th{
+font-size: 15px;
+margin:auto;
+padding:10px;
+
+}
+td{
+border:2px solid #171818;
+text-align:center;
+padding:0.5 ram;
+margin:auto;
+}
